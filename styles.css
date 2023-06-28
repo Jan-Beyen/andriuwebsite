@@ -1,5 +1,4 @@
-
-  @keyframes changeBackgroundColor {
+ @keyframes changeBackgroundColor {
     0% { background-color: #ff0000; }   /* Red */
     25% { background-color: #00ff00; }  /* Green */
     50% { background-color: #0000ff; }  /* Blue */
@@ -87,12 +86,6 @@ nav ul {
     .container {
         flex-direction: column;
     }
-
-}
-
-.left-section, .right-section {
-      flex: 1;
-      overflow-y: auto;
 }
 
 .left-section {
@@ -102,8 +95,6 @@ nav ul {
 .right-section {
     animation: changeBackgroundColor 30s infinite;
 }
-
-
 
 h1 {
     font-family: 'PoppinsEBI', sans-serif;
