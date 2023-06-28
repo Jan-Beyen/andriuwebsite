@@ -1,8 +1,10 @@
 
   @keyframes changeBackgroundColor {
-    0% { background-color: #0b751b; }   /* Initial color */
-    50% { background-color: #ff0000; }  /* Intermediate color */
-    100% { background-color: #0000ff; } /* Final color */
+    0% { background-color: #ff0000; }   /* Red */
+    25% { background-color: #00ff00; }  /* Green */
+    50% { background-color: #0000ff; }  /* Blue */
+    75% { background-color: #ffff00; }  /* Yellow */
+    100% { background-color: #ff00ff; } /* Magenta */
   }
 
 
