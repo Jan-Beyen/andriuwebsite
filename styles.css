@@ -87,6 +87,11 @@ nav ul {
     .container {
         flex-direction: column;
     }
+
+
+.left-section, .right-section {
+      flex: 1;
+      overflow-y: auto;
 }
 
 .left-section {
