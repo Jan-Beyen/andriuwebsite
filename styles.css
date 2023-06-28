@@ -90,15 +90,17 @@ nav ul {
 
 }
 
-        section {
-            overflow-y: auto; 
-        }
-
-        section:nth-child(1) {
-           background-color: #f1f1f1;
+.left-section, .right-section {
+      flex: 1;
+      overflow-y: auto;
 }
-        section:nth-child(2) {
- animation: changeBackgroundColor 30s infinite;
+
+.left-section {
+    background-color: #f1f1f1;
+}
+
+.right-section {
+    animation: changeBackgroundColor 30s infinite;
 }
 
 
