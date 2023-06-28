@@ -71,9 +71,17 @@ nav ul {
     height: 100%;
 }
 
-.left-section,
+
 .right-section {
-    width: 50%;
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+}
+
+.left-section {
+    width: 30%;
     padding: 20px;
     box-sizing: border-box;
 }
