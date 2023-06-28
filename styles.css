@@ -88,19 +88,20 @@ nav ul {
         flex-direction: column;
     }
 
-
-.left-section, .right-section {
-      flex: 1;
-      overflow-y: auto;
 }
 
-.left-section {
-    background-color: #f1f1f1;
+        section {
+            overflow-y: auto; 
+        }
+
+        section:nth-child(1) {
+           background-color: #f1f1f1;
+}
+        section:nth-child(2) {
+ animation: changeBackgroundColor 30s infinite;
 }
 
-.right-section {
-    animation: changeBackgroundColor 30s infinite;
-}
+
 
 h1 {
     font-family: 'PoppinsEBI', sans-serif;
