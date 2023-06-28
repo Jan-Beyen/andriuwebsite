@@ -23,6 +23,13 @@
 }
 
 @font-face {
+    font-family: 'PoppinsEBI';
+    src: url('fonts/Poppins-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Poppins';
     src: url('fonts/Poppins-Regular.ttf') format('truetype');
     font-weight: 800;
@@ -87,11 +94,11 @@ nav ul {
 }
 
 .right-section {
-    animation: changeBackgroundColor 5s infinite;
+    animation: changeBackgroundColor 30s infinite;
 }
 
 h1 {
-    font-family: 'PoppinsEB', sans-serif;
+    font-family: 'PoppinsEBI', sans-serif;
     font-weight: 800;
     margin-top: 0;
     font-size: 50px;
@@ -108,8 +115,8 @@ p {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     margin-top: 0;
-    font-size: 20px;
-    margin-top:20px;
+    font-size: 12px;
+    margin-top:12px;
 }
 
 img {
