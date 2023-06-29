@@ -99,7 +99,7 @@ p {
 }
 
 .image-container {
-  width: 70%;
+  width: 95%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -107,7 +107,7 @@ p {
 }
 
 .image-container img {
-  max-width: 70%;
-  max-height: 70%;
+  max-width: 95%;
+  max-height: 95%;
   object-fit: contain;
 }
