@@ -1,3 +1,11 @@
+@keyframes changeBackgroundColor {
+    0% { background-color: #ff0000; }   /* Red */
+    25% { background-color: #00ff00; }  /* Green */
+    50% { background-color: #0000ff; }  /* Blue */
+    75% { background-color: #ffff00; }  /* Yellow */
+    100% { background-color: #ff00ff; } /* Magenta */
+}
+
 @font-face {
   font-family: 'PoppinsEB';
   src: url('fonts/Poppins-ExtraBold.ttf') format('truetype');
@@ -71,7 +79,7 @@ nav ul li a {
   padding: 20px;
   box-sizing: border-box;
   overflow-y: auto;
-  background-color: #0b751b;
+  animation: changeBackgroundColor 30s infinite;
 }
 
 h1 {
