@@ -71,14 +71,14 @@ nav ul li a {
 }
 
 .right-section {
-    width: 70%;
+    width: 30%;
     height: 100vh;
     padding: 200px;
     box-sizing: border-box;
 }
 
 .left-section {
-    width: 30%;
+    width: 70%;
     height: 100vh;
     padding: 20px;
     box-sizing: border-box;
