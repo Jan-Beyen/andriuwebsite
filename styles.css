@@ -46,7 +46,7 @@ html {
   background-color: white;
   color: black;
   padding: 14px 28px;
-  margin: 100px;
+  margin: 20px;
   font-size: 16px;
   cursor: pointer;
   font-family: 'Helvetica', sans-serif;
@@ -85,8 +85,6 @@ html {
   transform: translate(-50%, -50%);
   background-color: #fff;
   border: 2px solid black;
-  max-width: 90%;
-  width: 400px;
 }
 
 h1 {
@@ -112,11 +110,5 @@ p {
   margin-bottom: 0; 
 }
 
-@media screen and (max-width: 480px) {
-  .center-section {
-    max-width: 90%;
-    width: 90%;
-  }
-}
 
 
