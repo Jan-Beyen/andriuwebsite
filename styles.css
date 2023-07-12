@@ -40,6 +40,11 @@ html {
   overflow: hidden;
 }
 
+hr {
+  margin: 20px 0;
+  padding: 0; 
+}
+
 .btn {
   border: 2px solid black;
   border-radius: 5px;
