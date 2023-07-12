@@ -48,6 +48,7 @@ html {
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
+  font-family: 'Helvetica', sans-serif;
 }
   
 .btn:hover {
@@ -67,6 +68,7 @@ html {
   right: 0;
   margin: 15px;
   text-decoration: none;
+  font-family: 'Helvetica', sans-serif;
 }
 
 .home-button:hover {
