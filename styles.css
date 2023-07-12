@@ -52,6 +52,14 @@ h1 {
   margin: 4px 0; 
 }
 
+h2 {
+  font-family: 'Helvetica_bold', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  margin-top: 14px;
+  margin-bottom: 0; 
+}
+
 p {
   font-family: 'Helvetica', sans-serif;
   font-weight: 800;
