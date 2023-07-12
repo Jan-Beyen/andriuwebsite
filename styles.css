@@ -50,8 +50,8 @@ html {
   cursor: pointer;
 }
   
-.default:hover {
-  background: #e7e7e7;
+.btn:hover {
+  color: grey; 
 }
   
 .home-button {
@@ -67,6 +67,10 @@ html {
   right: 0;
   margin: 15px;
   text-decoration: none;
+}
+
+.home-button:hover {
+  color: grey; 
 }
 
 .center-section {
