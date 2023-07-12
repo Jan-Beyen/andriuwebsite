@@ -47,7 +47,7 @@ hr {
 
 .btn {
   border: 2px solid black;
-  border-radius: 5px;
+  border-radius: 50px;
   background-color: white;
   color: black;
   padding: 14px 28px;
@@ -63,7 +63,7 @@ hr {
   
 .home-button {
   border: 2px solid black;
-  border-radius: 50px;
+  border-radius: 5px;
   background-color: white;
   color: black;
   padding: 8px 8px;
@@ -90,6 +90,7 @@ hr {
   transform: translate(-50%, -50%);
   background-color: #fff;
   border: 2px solid black;
+  
 }
 
 h1 {
