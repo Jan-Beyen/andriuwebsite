@@ -48,7 +48,7 @@ html {
 h1 {
   font-family: 'Times_New_Roman', serif;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 36px;
   margin: 4px 0; 
 }
 
@@ -64,6 +64,6 @@ p {
   font-family: 'Helvetica', sans-serif;
   font-weight: 800;
   font-size: 14px;
-  margin-top: 14px;
+  margin-top: 12px;
   margin-bottom: 0; 
 }
