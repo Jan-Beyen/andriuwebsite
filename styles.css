@@ -52,10 +52,6 @@ html {
   font-family: 'Helvetica', sans-serif;
 }
 
-button.btn.default {
-  margin-bottom: 10px;
-}
-
 .btn:hover {
   color: grey; 
 }
@@ -124,28 +120,3 @@ p {
 }
 
 
-.container {
-  display: flex;
-  height: 100vh;
-}
-
-.text-container {
-  width: 50%;
-  padding: 20px;
-  box-sizing: border-box;
-  background-color: #f1f1f1;
-}
-
-.image-container {
-  width: 50%;
-  overflow-y: auto;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-.image-container img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
