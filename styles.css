@@ -19,6 +19,7 @@
   font-style: normal;
 }
 
+
 body {
   background-image: url("images/BG_1.jpg");
   height: 100%;
@@ -39,6 +40,20 @@ html {
   overflow: hidden;
 }
 
+.btn {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+  
+.default:hover {
+  background: #e7e7e7;
+}
+  
 .home-button {
   border: 2px solid black;
   border-radius: 5px;
@@ -52,10 +67,6 @@ html {
   right: 0;
   margin: 15px;
   text-decoration: none;
-}
-
-.default:hover {
-  background: #e7e7e7;
 }
 
 .center-section {
