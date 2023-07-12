@@ -51,7 +51,11 @@ html {
   cursor: pointer;
   font-family: 'Helvetica', sans-serif;
 }
-  
+
+button.btn.default {
+  margin-bottom: 10px;
+}
+
 .btn:hover {
   color: grey; 
 }
