@@ -123,16 +123,16 @@ hr {
 .left-section {
   border-radius: 1em;
   box-sizing: border-box;
-  padding: 4em;
-  width: 25%;
+  padding: 2em;
+  width: 30%;
   background-color: #fff;
   border: 2px solid black;
 }
 
 .right-section {
   border-radius: 1em;
-  padding: 4em;
-  width: 75%;
+  padding: 2em;
+  width: 70%;
   background-color: #fff;
   border: 2px solid black;
   box-sizing: border-box;
