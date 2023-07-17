@@ -123,6 +123,12 @@ hr {
   color: grey; 
 }
 
+.container {
+  display: flex;
+  height: 100%;
+}
+
+
 .center-section {
   border-radius: 1em;
   padding: 4em;
@@ -133,24 +139,18 @@ hr {
   background-color: #fff;
   border: 2px solid black;
   overflow-y: scroll;
+  
+  /* Hide the scrollbar in modern browsers */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
 }
 
+/* Hide the scrollbar in WebKit-based browsers (e.g., Chrome, Safari) */
 .center-section::-webkit-scrollbar {
-    display: none;
-}
-
-.center-section {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  display: none;
 }
 
   
-
-.container {
-  display: flex;
-  height: 100%;
-}
-
 .left-section {
   border-radius: 1em;
   padding: 2em;
