@@ -141,12 +141,14 @@ hr {
 
 .left-section {
   border-radius: 1em;
-  box-sizing: border-box;
   padding: 2em;
   width: 30%;
   background-color: #fff;
   border: 2px solid black;
-  margin: 20px:
+  box-sizing: border-box;
+  margin: 20px;
+  overflow-y: hidden;
+  overflow-y: scroll;:
 }
 
 .right-section {
