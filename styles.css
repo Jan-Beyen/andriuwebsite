@@ -92,6 +92,18 @@ hr {
   
 }
 
+.left-section {
+  border-radius: 1em;
+  padding: 4em;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 2px solid black;
+  
+}
+
 h1 {
   font-family: 'Times_New_Roman', serif;
   font-weight: 800;
