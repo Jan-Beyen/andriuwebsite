@@ -148,7 +148,6 @@ hr {
   box-sizing: border-box;
   margin: 20px;
   overflow-y: hidden;
-  overflow-y: scroll;:
 }
 
 .right-section {
@@ -160,7 +159,6 @@ hr {
   box-sizing: border-box;
   margin: 20px;
   overflow-y: hidden;
-  overflow-y: scroll;
 }
 
 .image-container {
