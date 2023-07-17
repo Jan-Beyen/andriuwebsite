@@ -19,6 +19,10 @@
   font-style: normal;
 }
 
+@media screen and (max-width: 600px) {
+  .center-section {
+    padding: 2em; /* Reduce padding for smaller screens */
+  }
 
 body {
   height: 100%;
