@@ -19,6 +19,11 @@
   font-style: normal;
 }
 
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Adjust base font size for smaller screens */
+  }
+
 
 body {
   height: 100%;
