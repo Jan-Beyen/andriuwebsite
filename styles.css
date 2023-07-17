@@ -64,11 +64,11 @@ hr {
 
 .small_btn {
   border: 2px solid black;
-  border-radius: 25px;
+  border-radius: 14px;
   background-color: white;
   color: black;
-  padding: 8px 16px;
-  font-size: 16px;
+  padding: 8px 14px;
+  font-size: 14px;
   margin: 5px;
   text-decoration: none;
   font-family: 'Helvetica', sans-serif;
