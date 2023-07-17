@@ -135,11 +135,11 @@ hr {
   overflow-y: scroll;
 }
 
-.right-section::-webkit-scrollbar {
+.center-section::-webkit-scrollbar {
     display: none;
 }
 
-.righ-section {
+.center-section {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
@@ -187,7 +187,7 @@ hr {
     display: none;
 }
 
-.righ-section {
+.right-section {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
