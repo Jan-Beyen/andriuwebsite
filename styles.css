@@ -133,23 +133,25 @@ hr {
 .center-section {
   border-radius: 1em;
   padding: 4em;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  margin: 20px;
   background-color: #fff;
   border: 2px solid black;
   overflow-y: scroll;
+}
   
-  /* Hide the scrollbar in modern browsers */
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
+.left-section::-webkit-scrollbar {
+    display: none;
 }
 
-/* Hide the scrollbar in WebKit-based browsers (e.g., Chrome, Safari) */
-.center-section::-webkit-scrollbar {
-  display: none;
+.left-section {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
+
 
   
 .left-section {
