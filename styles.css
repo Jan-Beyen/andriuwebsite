@@ -56,6 +56,19 @@ hr {
   font-family: 'Helvetica', sans-serif;
 }
 
+.small_btn {
+  border: 2px solid black;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+  padding: 10px 214px;
+  margin: 14px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: 'Helvetica', sans-serif;
+}
+
+
 .btn:hover {
   color: grey; 
 }
