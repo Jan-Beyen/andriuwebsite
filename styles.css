@@ -71,6 +71,7 @@ hr {
   margin: 5px;
   text-decoration: none;
   font-family: 'Helvetica', sans-serif;
+  display: inline-block;
 }
 
 .small_btn:hover {
