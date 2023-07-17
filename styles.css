@@ -115,9 +115,14 @@ hr {
   border: 2px solid black;
   
 }
+.container {
+  display: flex;
+  height: 100%;
+}
 
 .left-section {
   border-radius: 1em;
+  box-sizing: border-box;
   padding: 4em;
   width: 25%;
   background-color: #fff;
@@ -130,7 +135,8 @@ hr {
   width: 75%;
   background-color: #fff;
   border: 2px solid black;
-  overflow: hidden;
+  box-sizing: border-box;
+  overflow-y: hidden;
   overflow-y: scroll;
 }
 
