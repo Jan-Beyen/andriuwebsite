@@ -19,19 +19,18 @@
   font-style: normal;
 }
 
-
 body {
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0; 
-  padding: 0; 
+  margin: 0;
+  padding: 0;
 }
 
 a {
   color: inherit;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 html {
@@ -41,7 +40,7 @@ html {
 
 hr {
   margin: 20px 0;
-  padding: 0; 
+  padding: 0;
 }
 
 .btn {
@@ -76,14 +75,13 @@ hr {
 }
 
 .small_btn:hover {
-  color: grey; 
+  color: grey;
 }
-
 
 .btn:hover {
-  color: grey; 
+  color: grey;
 }
-  
+
 .home-button {
   border: 2px solid black;
   border-radius: 5px;
@@ -101,7 +99,7 @@ hr {
 }
 
 .home-button:hover {
-  color: grey; 
+  color: grey;
 }
 
 .back-button {
@@ -120,14 +118,13 @@ hr {
 }
 
 .back-button:hover {
-  color: grey; 
+  color: grey;
 }
 
 .container {
   display: flex;
   height: 100%;
 }
-
 
 .center-section {
   border-radius: 1em;
@@ -138,8 +135,8 @@ hr {
   transform: translate(-50%, -50%);
   background-color: #fff;
   border: 2px solid black;
+}
 
-  
 .left-section {
   border-radius: 1em;
   padding: 2em;
@@ -148,19 +145,20 @@ hr {
   border: 2px solid black;
   box-sizing: border-box;
   margin: 20px;
-  overflow-y: scroll; 
+  overflow-y: scroll;
 }
 
 .left-section::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .left-section {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
-  
 .right-section {
   border-radius: 1em;
   padding: 2em;
@@ -173,15 +171,17 @@ hr {
 }
 
 .right-section::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .right-section {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
-  .cv-section {
+.cv-section {
   border-radius: 1em;
   padding: 2em;
   width: 30%;
@@ -189,22 +189,20 @@ hr {
   border: 2px solid black;
   box-sizing: border-box;
   margin: 20px;
-  overflow-y: scroll; 
-  justify-content: center;
-  align-items: center;
+  overflow-y: scroll;
 }
 
 .cv-section::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .cv-section {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
-
-  
 .image-container {
   width: 100%;
   margin: 20px 0;
@@ -222,15 +220,15 @@ h1 {
   font-family: 'Times_New_Roman', serif;
   font-weight: 800;
   font-size: 36px;
-  margin: 4px 0; 
+  margin: 4px 0;
 }
 
 h2 {
-  font-family: 'Helvetica_bold', sans-serif;
+  font-family: 'Helvetica_Bold', sans-serif;
   font-weight: 800;
   font-size: 14px;
   margin-top: 14px;
-  margin-bottom: 0; 
+  margin-bottom: 0;
 }
 
 p {
@@ -238,7 +236,7 @@ p {
   font-weight: 800;
   font-size: 14px;
   margin-top: 14px;
-  margin-bottom: 0; 
+  margin-bottom: 0;
 }
 
 li {
@@ -246,16 +244,15 @@ li {
   font-weight: 800;
   font-size: 14px;
   margin-top: 14px;
-  margin-bottom: 0; 
+  margin-bottom: 0;
 }
 
 .bottom-text {
-    /* Position the text at the bottom of the container */
-    position: absolute;
-    bottom: 0;
-    /* Add padding or margin as needed to adjust the positioning */
-    padding: 10px;
-    /* Additional styles for the text */
+  /* Position the text at the bottom of the container */
+  position: absolute;
+  bottom: 0;
+  /* Add padding or margin as needed to adjust the positioning */
+  padding: 10px;
+  /* Additional styles for the text */
 }
-
 
