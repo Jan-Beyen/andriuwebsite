@@ -128,6 +128,31 @@ hr {
   border: 2px solid black;
 }
 
+.right-section {
+  border-radius: 1em;
+  padding: 4em;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 75%;
+  transform: translate(50%, -50%);
+  background-color: #fff;
+  border: 2px solid black;
+}
+
+.image-container {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 h1 {
   font-family: 'Times_New_Roman', serif;
   font-weight: 800;
