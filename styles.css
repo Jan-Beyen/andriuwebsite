@@ -127,31 +127,20 @@ hr {
   display: flex;
   height: 100%;
   position: relative;
+  justify-content: center;
+  align-items: center;
 }
 
 
 .center-section {
   border-radius: 1em;
   padding: 4em;
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin: 20px;
   background-color: #fff;
   border: 2px solid black;
-  overflow-y: scroll;
-}
-  
-.left-section::-webkit-scrollbar {
-    display: none;
-}
-
-.left-section {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
-
 
   
 .left-section {
@@ -195,6 +184,30 @@ hr {
   scrollbar-width: none;  /* Firefox */
 }
 
+  .cv-section {
+  border-radius: 1em;
+  padding: 2em;
+  width: 30%;
+  background-color: #fff;
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin: 20px;
+  overflow-y: scroll; 
+  justify-content: center;
+  align-items: center;
+}
+
+.cv-section::-webkit-scrollbar {
+    display: none;
+}
+
+.cv-section {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+  
 .image-container {
   width: 100%;
   margin: 20px 0;
