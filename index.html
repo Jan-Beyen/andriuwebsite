@@ -6,33 +6,18 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
 </head>
 <body>
-<div class="container">
-        <div class="center-section" id="background-container">
+
+    <div class="container">
+        <div class="center-section">
             <h1>Aindriú Ó'Deasún</h1>
             <hr>
-            <p><a href="work.html">Work</a></p>
-            <p><a href="cv.html">CV</a></p>
-            <p><a href="contact.html">Contact</a></p>
+            <p><a href="work.html"> Work </a></p>
+            <p><a href="cv.html"> CV </a></p>
+            <p><a href="contact.html"> Contact </a></p>
             <hr>
-            <p>Refresh page for a new image</p>
+            <p> Refresh page for new image</p>
         </div>
     </div>
-    <script>
-        // JavaScript code to randomly change the background image
-        function getRandomImage() {
-            const images = [
-                'images/BG_2.jpg', // Add your image filenames here
-                'images/BG_3.jpg',
-                'images/BG_4.jpg',
-                // Add more image filenames as needed
-            ];
 
-            const randomIndex = Math.floor(Math.random() * images.length);
-            return images[randomIndex];
-        }
-
-        const backgroundContainer = document.getElementById('background-container');
-        const randomImage = getRandomImage();
-        backgroundContainer.style.backgroundImage = `url('images/${randomImage}')`;
-    </script>
 </body>
+</html>
