@@ -134,6 +134,8 @@ hr {
   transform: translate(50%, -50%);
   background-color: #fff;
   border: 2px solid black;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 
 .image-container {
