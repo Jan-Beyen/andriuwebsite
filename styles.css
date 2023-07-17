@@ -121,11 +121,11 @@ hr {
   padding: 4em;
   position: absolute;
   top: 50%;
-  left: 25%;
+  left: 0;
+  width: 25%;
   transform: translate(-50%, -50%);
   background-color: #fff;
   border: 2px solid black;
-  
 }
 
 h1 {
