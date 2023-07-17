@@ -26,5 +26,38 @@
             <a href="WPages/GS2020.html" class="btn default">Green Space, A Frame of Mind in our Industrial Outdoors - 2020</a>
         </div>
     </div>
+    
+    <script>
+        // JavaScript code to randomly change the background image
+        function getRandomImage() {
+            const images = [
+                'images/BG_1.jpg', // Add your image filenames here
+                'images/BG_2.jpg',
+                'images/BG_3.jpg',
+                'images/BG_4.jpg',
+                'images/BG_5.jpg',
+                'images/BG_6.jpg',
+                'images/BG_7.jpg',
+                'images/BG_8.jpg',
+                'images/BG_9.jpg',
+                'images/BG_10.jpg',
+                'images/BG_11.jpg',
+                'images/BG_12.jpg',
+                'images/BG_13.jpg',
+                'images/BG_14.jpg',
+                // Add more image filenames as needed
+            ];
+
+            const randomIndex = Math.floor(Math.random() * images.length);
+            return images[randomIndex];
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const body = document.body;
+            const randomImage = getRandomImage();
+            body.style.backgroundImage = `url('${randomImage}')`;
+        });
+    </script>
+
 </body>
 </html>
