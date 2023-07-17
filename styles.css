@@ -126,6 +126,7 @@ hr {
 .container {
   display: flex;
   height: 100%;
+  position: relative;
 }
 
 
@@ -236,5 +237,13 @@ li {
   margin-bottom: 0; 
 }
 
+.bottom-text {
+    /* Position the text at the bottom of the container */
+    position: absolute;
+    bottom: 0;
+    /* Add padding or margin as needed to adjust the positioning */
+    padding: 10px;
+    /* Additional styles for the text */
+}
 
 
