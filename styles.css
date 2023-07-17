@@ -59,6 +59,7 @@ hr {
 .button-group {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .small_btn {
