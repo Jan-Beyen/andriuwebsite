@@ -215,17 +215,21 @@ hr {
 
 .imageID-container {
   width: 100%;
-  height: 100%; /* Set the height of the container to 100% */
-  background-size: contain; /* Use contain to fit the image perfectly centered */
+  height: auto%; 
+  background-size: contain; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-/* Style the image tag inside the .imageID-container */
+
 .imageID-container img {
-  width: 100%; /* Ensure the image takes up the full width of the container */
-  height: auto; /* Automatically adjust the height to maintain aspect ratio */
-  display: block; /* Remove any extra spacing below the image */
+  width: 100%; 
+  height: auto; 
+  display: block;
+  margin: auto;
 }
 
 
