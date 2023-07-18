@@ -207,10 +207,10 @@ hr {
   border-radius: 1em;
   padding: 2em;
   width: 40%;
-  background-color: ffff;
-  border: none;
+  background-color: #fff;
+  border: 2px solid black;
   box-sizing: border-box;
-  margin: 65px;
+  margin: 120px;
 }
 
 .imageID-container {
