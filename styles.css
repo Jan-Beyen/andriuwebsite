@@ -121,6 +121,25 @@ hr {
   color: grey;
 }
 
+.back-button2 {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 3px 5px;
+  font-size: 14px;
+  cursor: pointer;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  text-decoration: none;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.back-button2:hover {
+  color: grey;
+}
+
 .container {
   display: flex;
   height: 100%;
@@ -212,7 +231,7 @@ hr {
   box-sizing: border-box;
   margin: 20px;
   overflow-y: scroll;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -224,7 +243,6 @@ hr {
 
 .notebook-section {
   -ms-overflow-style: none;
-
   scrollbar-width: none;
 
 }
