@@ -250,8 +250,8 @@ hr {
 
 .id-section {
   border-radius: 1em;
-  padding: 2em;
-  width: 40%;
+  padding: 1em; /* Reduce padding for a smaller container */
+  width: 30%; /* Reduce the width of the container */
   background-color: #fff;
   border: 2px solid black;
   box-sizing: border-box;
@@ -270,11 +270,12 @@ hr {
 }
 
 .imageID-container img {
-  width: 100%; 
+  width: 80%; /* Reduce the width of the image */
   height: auto; 
   display: block;
   margin: auto;
 }
+
 
 
 
