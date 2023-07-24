@@ -201,11 +201,9 @@ hr {
 }
 
 .right-sectionTRS {
-  border-radius: 1em;
   padding: 2em;
   width: 70%;
   background-color: transparent;
-  border: 2px solid black;
   box-sizing: border-box;
   margin: 20px;
   overflow-y: scroll;
