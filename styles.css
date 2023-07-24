@@ -200,6 +200,28 @@ hr {
   /* Firefox */
 }
 
+.right-sectionTRS {
+  border-radius: 1em;
+  padding: 2em;
+  width: 70%;
+  background-color: transparent;
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin: 20px;
+  overflow-y: scroll;
+}
+
+.right-section::-webkit-scrollbar {
+  display: none;
+}
+
+.right-section {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
 .cv-section {
   border-radius: 1em;
   padding: 2em;
