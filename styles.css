@@ -211,11 +211,11 @@ hr {
   overflow-y: scroll;
 }
 
-.right-section::-webkit-scrollbar {
+.right-sectionTRS::-webkit-scrollbar {
   display: none;
 }
 
-.right-section {
+.right-sectionTRS {
   -ms-overflow-style: none;
   /* IE and Edge */
   scrollbar-width: none;
