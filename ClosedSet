@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aindriú Ó'Deasún - Closed Set</title>
+    <style>
+        body {
+            background-image: url("images/CSM_13.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+</head>
+<body>
+   <div class="container">
+        <div class="left-section">
+            <a href="work.html" class="back-button">Back</a>
+            <br>
+            <br>
+            <br>
+            <h1>Catching Something Moving at the 'Creative Factory' Turnhout - 2023</h1>
+            <hr>
+            <div class="text-content">
+                <p>Shown at the 'Creative Factory' in Turnhout, this reworking of Aindriú's graduating show 'Catching Something Moving' saw the work on a much larger scale, situated in a 200sqm gallery space.</p>
+                <br>
+                <p>While the video piece and general concept remained the same, the larger space allowed for a freestanding iteration of the inflatable polythene structures, a much larger screen at 2x1.8m and a spatial audio piece.</p>
+                <br>
+                <p>The work was redeveloped and constructed at 'Atlier SKTLU' in Antwerp centre, the show at 'Creative Factory' titled 'Canvas en Code', was curated by Mark Lissens, this work was featured alongside paintings from Ella Goris and JW Van de Haele.</p>
+            </div>
+        </div>
+        <div class="right-section">
+        <div class="image-container">
+            <img src="images/CSMT_1.jpg" alt="Aindriú Ó'Deasún">
+        </div>
+        <div class="image-container">
+            <img src="images/CSMT_2.jpg" alt="Aindriú Ó'Deasún">
+        </div>
+        <div class="image-container">
+            <img src="images/CSMT_3.jpg" alt="Aindriú Ó'Deasún">
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jpd87AuRfms?si=MaAmCVXWP_Ga80ja" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="419" height="744" src="https://www.youtube.com/embed/-_HOcGa_EI0" title="&#39;Catching Something Moving&#39; Inflatables." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <br>
+        <h1>Extras</h1>
+        <hr>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DVODUkwlByY?si=xwQeqMyXwGj5CfYt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="image-container">
+            <img src="images/CSMT_5.jpg" alt="Aindriú Ó'Deasún">
+        </div>
+        <div class="image-container">
+            <img src="images/CSMT_4.jpg" alt="Aindriú Ó'Deasún">
+        </div>
+        
+        
+    </div>
+</div>
+    </div>
+</body>
+</html>
